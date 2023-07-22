@@ -65,7 +65,7 @@ window.onload = function () {
             if (response.status !== 200) throw new Error("Invalid city name");
 
             const data = await response.json();
-            console.log(data);
+            // console.log(data);
             updateUI(false, data);
         } catch (error) {
             updateUI(true);

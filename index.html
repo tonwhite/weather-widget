@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter city name" spellcheck="false">
+                <button> <img src="./images/search.png" alt="search"> </button>
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+                <img src="./images/rain.png" class="weather-icon" alt="weather-icon">
+                <h3 class="description">Cloudy</h3>
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="./images/humidity.png" alt="humidity">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./images/wind.png" alt="humidity">
+                        <div>
+                            <p class="wind">15km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./images/visibility.png" alt="visibility">
+                        <div>
+                            <p class="visibility">10 km</p>
+                            <p>Visibility</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./images/pressure.png" alt="pressure">
+                        <div>
+                            <p class="pressure">1000hPa</p>
+                            <p>Pressure</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>

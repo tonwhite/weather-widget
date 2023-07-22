@@ -54,7 +54,7 @@ window.onload = function () {
             selectors.humidity.textContent = `${data.main.humidity}%`;
             selectors.wind.textContent = `${data.wind.speed}km/h`;
             selectors.visibility.textContent = `${data.visibility / 1000} km`;
-            selectors.pressure.textContent = `${data.main.pressure} hPa`;
+            selectors.pressure.textContent = `${data.main.pressure}hPa`;
             selectors.weatherIcon.src = weatherIconMapping[data.weather[0].main] || weatherIconMapping.Default;
         }
     };
